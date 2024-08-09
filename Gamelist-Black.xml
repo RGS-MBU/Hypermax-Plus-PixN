@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+ <customView name="Gamelist Black" inherits="gamecarousel">
+
+	<gamecarousel name="gamecarousel">
+		<type>vertical_wheel</type>
+		<pos>0.73 0</pos>
+		<size>0.30 1</size>
+		<logoScale>2.0</logoScale>
+		<logoSize>0.30 0.24</logoSize>
+		<logoRotation>-4.5</logoRotation>
+		<logoRotationOrigin>6 0.5</logoRotationOrigin>
+		<maxLogoCount>15</maxLogoCount>
+		<imageSource>marquee</imageSource>
+		<zIndex>48</zIndex>
+      </gamecarousel> 
+	  
+	  	  <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+
+	  <image name="player" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/menu14black.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>          
+       </image> 
+	   
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+	  
+	  	    <image name="maqueta" extra="true">
+<pos>0.48 0.15</pos>
+<size>0.55 0.28</size>
+	  <color>ffffff</color>
+	  <path>./default/_inc/system1.png</path>
+	  <path>./${system.theme}/_inc/system1.png</path>
+      <origin>0.5 0.5</origin>
+	  <zIndex>2</zIndex>
+	</image>
+
+ <video name="md_video">
+<pos>0.477 0.57</pos>
+<size>0.405 0.555</size>
+<origin>0.5 0.5</origin>
+        <delay>0</delay>
+		<loops>3</loops>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+		<zIndex>11</zIndex>
+		</video>
+
+	  <image name="char" extra="true">
+		<pos>0.01 0.17</pos>
+		<maxSize>0.8 0.8</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+
+<image name="pointer1" extra="true">
+<pos>0.97 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<color>ffffffA6</color>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>999</zIndex> 
+</image>
+
+<image name="pointer" extra="true">
+ <visible>false</visible> 
+</image>
+
+	<image name="system-background" extra="true">
+ <visible>false</visible> 
+    </image> 
+	
+			<rating name="md_rating">
+ <visible>false</visible> 
+		</rating>
+		
+  <image name="marco" extra="true">
+        <size>1 1</size>
+          <pos>0 0</pos>
+          <origin>0 0</origin>
+          <path>./_inc/menu14list.png</path>
+          <zIndex>3</zIndex>
+         </image>
+	
+
+   		<image name="md_thumbnail">
+ <visible>false</visible> 
+		</image>
+		
+	  <image name="md_marquee">
+ <visible>false</visible> 
+     </image>
+   
+   
+	<text name="md_name">
+ <visible>false</visible> 		
+	</text>
+	
+	  <image name="sombra" extra="true">
+ <visible>false</visible> 	
+    </image> 
+	
+	<image name="logo03" extra="true">
+ <visible>false</visible> 
+	</image>
+	
+	<text name="logoText">
+ <visible>false</visible> 
+    </text>
+   </customView>
+   
+   </theme>

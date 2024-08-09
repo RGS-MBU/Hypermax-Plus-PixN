@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+ 
+   <!---------------------------custom------------------------------------- -->
+
+<customView name="Gamelist Marquee" inherits="grid">
+      <image name="character" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>
+      </image> 
+			
+	<text name="md_name">
+			<fontPath>./fonts/gomarice_no_continue.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.55 0.90</pos>
+			<size>0.3 0.0248148148148148</size>
+			<alignment>left</alignment>
+			<color>ffffff</color>
+			<glowColor>10101099</glowColor>			
+			<glowSize>3</glowSize>			
+		</text>
+
+	
+		<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	
+ 	<image name="shadowcover01" extra="true">
+        <path>./_inc/solo.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>10</zIndex>
+	</image>
+	
+     <video name="md_video">
+		<color>ffffff</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.65 0.485</pos>
+		<delay>0.5</delay>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+		<zIndex>2</zIndex>      
+     </video> 
+	 
+	<imagegrid name="gamegrid">
+	  <pos>-0.073 0</pos>
+      <size>0.35 1</size>
+      <padding>0.08 0 0.08 0</padding>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>1 7</autoLayout>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <margin>0 0.015</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <imageSource>marquee</imageSource>
+	  <zIndex>999</zIndex>         		
+    </imagegrid>
+	
+	 <gridtile name="default">
+      <backgroundColor>00000000</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>video</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>ffffff</imageColor>
+      <reflexion>0.03 0.0</reflexion>	  
+    </gridtile>
+ 
+	<image name="logo03" extra="true">
+        <pos>0.845 0.1</pos>
+        <maxSize>0.10 0.10</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+	
+	   		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.87 0.77</pos>
+			<maxSize>0.14 0.2</maxSize>
+			<zIndex>90</zIndex>
+		</image>
+
+   </customView>
+   
+   </theme>

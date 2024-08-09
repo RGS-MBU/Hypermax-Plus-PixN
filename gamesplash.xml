@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+	<formatVersion>7</formatVersion>
+
+
+<view name="splash">
+
+<splash name="splash">
+<backgroundColor>ffffff</backgroundColor>
+</splash>
+
+    <image name="background">
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.85 0.85</maxSize>
+      <roundCorners>0</roundCorners>
+      <linearSmooth>false</linearSmooth>
+      <color>ffffff</color>
+    </image>
+
+<image name="gamesplash1" extra="true" ifSubset="texture:yes">
+<path>./_inc/gamesplash.jpg</path>
+<size>1 1</size>
+<color>ffffff</color>
+<zIndex>1</zIndex>
+</image>
+
+<text name="label">
+<color>ffffff33</color>
+<alignment>center</alignment>
+<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+<pos>0 0.95</pos>
+<fontSize>0.058</fontSize>
+<zIndex>9</zIndex>
+</text>
+
+</view>
+
+</theme>

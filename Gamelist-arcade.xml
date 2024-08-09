@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+ <!---------------------------custom------------------------------------- -->
+
+  <customView name="Gamelist arcade" inherits="gamecarousel">
+	  
+	  	  <image name="char" extra="true">
+		<pos>0.58 0.67</pos>
+		<maxSize>0.3 0.3</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+	  
+	  	<image name="cliente" extra="true">
+		<pos>0.597 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	        <image name="fondoblack" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/CoinOPS1.png</path>
+         <zIndex>5</zIndex>          
+      </image> 
+	  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+	  
+  	<image name="logo03" extra="true">
+<visible>false</visible> 
+	</image>
+	
+<image name="pointer1" extra="true">
+<pos>0.97 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<color>ffffffA6</color>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>999</zIndex> 
+</image>
+  
+        <image name="art3" extra="true">
+		 <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>  
+         <path>./art/sistemas/fondos/CoinOPS NEXT big scanline1.png</path>
+         <zIndex>7</zIndex>
+      </image>
+	  
+      <image name="md_fanart">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>1</zIndex>
+    </image>
+	
+    <image name="sombra" extra="true">
+<visible>false</visible> 
+    </image>
+  
+      <image name="md_thumbnail">
+<visible>false</visible> 
+      </image>
+
+      <text name="md_name">
+<visible>false</visible> 
+      </text>
+
+      <text name="md_description">
+<visible>false</visible> 
+      </text>
+	  
+	  
+  <text name="md_developer">
+<visible>false</visible> 
+    </text>
+	
+	      <image name="character" extra="true">
+<visible>false</visible>
+      </image> 
+	  
+	  	<image name="system-background" extra="true">
+<visible>false</visible>
+    </image> 
+	
+	<image name="pointer" extra="true">
+<visible>false</visible> 
+</image>
+	
+	    <text name="md_lbl_rating">
+<visible>false</visible>
+    </text>
+
+    <rating name="md_rating">
+<visible>false</visible>
+    </rating>
+	
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.29 0</pos>
+<size>1 1</size>
+<logoScale>1.4</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>22</maxLogoCount>
+<logoRotation>-8</logoRotation>
+<logoRotationOrigin>3.0 0.2</logoRotationOrigin>
+<logoAlignment>center</logoAlignment> 
+<gameImage>./_inc/game.png</gameImage>
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+    
+	    <image name="maqueta" extra="true">
+<pos>0.287 0.121</pos>
+<size>0.455 0.200</size>
+	  <color>ffffff</color>
+	  <path>./default/_inc/system1.png</path>
+	  <path>./${system.theme}/_inc/system1.png</path>
+      <origin>0.5 0.5</origin>
+	  <zIndex>2</zIndex>
+	</image>
+	
+    <text name="gamecarouselLogoText">
+		<color>FFFFFFFF</color>
+		<glowColor>00000050</glowColor>
+		<glowSize>3</glowSize>
+		<glowOffset>3</glowOffset>
+		<lineSpacing>1.0</lineSpacing>
+        <fontPath>./_assets/${x.font.main}</fontPath>
+        <fontSize>0.030</fontSize>
+    </text>	
+
+	   <video name="md_video">
+	  	<pos>0.29 0.54</pos>
+        <origin>0.5 0.5</origin>
+		<size>0.4 0.50</size>
+		<delay>0.5</delay>
+		<effect>none</effect> 
+		<zIndex>6</zIndex>  
+      </video> 
+
+	  <image name="md_marquee">
+ <visible>false</visible>
+</image>
+
+
+	<text name="logoText">
+      <visible>false</visible> 
+    </text>
+	
+	<image name="shadowcover01" extra="true">
+      <visible>false</visible> 
+	</image>
+	
+	 <image name="character" extra="true">
+      <visible>false</visible>        
+     </image> 
+   </customView>
+   
+   </theme>

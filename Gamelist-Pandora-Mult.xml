@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------custom--------------------------------------->
+ 
+   <customView name="Gamelist Pandora Mult" inherits="detailed">
+   
+      <textlist name="gamelist">
+          <selectorImagePath>./_inc/selector2.png</selectorImagePath>
+         <selectorHeight>0.0648148148148148</selectorHeight>
+         <selectorColor>ffffff</selectorColor>
+         <forceUppercase>1</forceUppercase>
+         <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+         <fontSize>0.0425925925925926</fontSize>
+         <lineSpacing>1.739130434782609</lineSpacing>
+         <selectedColor>ffffff</selectedColor>
+         <selectorColor>FFFFFF</selectorColor> 
+         <selectorColorEnd>FFFFFF</selectorColorEnd>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <size>0.55 0.68</size>
+         <pos>0.2786458333333333 0.5324074074074074</pos>
+         <horizontalMargin>0.05</horizontalMargin>
+         <origin>0.5 0.5</origin>
+         <zIndex>42</zIndex>
+      </textlist>
+	  
+	  <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	  		    <image name="maqueta" extra="true">
+ <visible>false</visible> 
+	</image>
+	  
+	  		<video name="md_video">
+			<pos>0.791 0.425</pos>
+			<maxSize>0.496 0.496</maxSize>
+            <size>0.333 0.440</size>  
+			<origin>0.5 0.5</origin>
+			<delay>0.3</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+            <effect>none</effect>			
+			<zIndex>51</zIndex> 
+		</video>	
+		
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+     	<fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+     </helpsystem>
+	 
+	 	 	        <image name="borde" extra="true">
+ <visible>false</visible>         
+      </image> 
+	  
+		
+	  
+	        <image name="fondodetalle" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/gamelist_pandora1.png</path>
+         <zIndex>8</zIndex>          
+      </image> 
+	  
+	  	  <text name="md_description">
+<color>ffffff</color>
+         <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<fontSize>0.016</fontSize>
+<size>0.33 0.16</size>
+	 <alignment>left</alignment>
+<pos>0.792 0.77</pos>
+<origin>0.5 0.5</origin>
+<zIndex>999</zIndex>
+</text>
+	  
+	  
+	  <image name="md_marquee">
+<pos>0.290 0.09</pos>
+<maxSize>0.14 0.14</maxSize>
+<origin>0.5 0.5</origin>
+<zIndex>10</zIndex>
+</image>
+
+      <image name="logo03" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.8 0.079</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.20 0.11</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+
+	  
+	   <video name="backgroundvideo2" extra="true">
+ <visible>false</visible>     
+</video>
+
+      <image name="fondoblack" extra="true">
+ <visible>false</visible>         
+      </image> 
+	  
+	        <image name="md_image">
+ <visible>false</visible>         
+      </image> 
+
+      <image name="character" extra="true">
+ <visible>false</visible>          
+      </image> 
+	  
+	  	  	<text name="logoText">
+ <visible>false</visible>
+    </text>
+	  
+	  	<text name="md_name">
+ <visible>false</visible> 
+		</text>
+		
+
+      <text name="md_lbl_rating">
+ <visible>false</visible>                 
+      </text>
+	  
+      <rating name="md_rating">
+ <visible>false</visible> 
+      </rating>
+	  
+      <text name="md_lbl_players">
+ <visible>false</visible>        
+      </text>
+	  
+      <text name="md_players">
+ <visible>false</visible>                  
+      </text>
+	  
+      <text name="md_lbl_releasedate">
+ <visible>false</visible>        
+      </text>
+	  
+      <datetime name="md_releasedate">
+ <visible>false</visible>                
+      </datetime>
+	  
+      <text name="md_lbl_genre">
+ <visible>false</visible>                  
+      </text>
+	  
+      <text name="md_genre">
+ <visible>false</visible>        
+      </text>  
+	  
+      <text name="md_lbl_publisher">
+ <visible>false</visible>                   
+      </text>
+	  
+      <text name="md_publisher">
+ <visible>false</visible>         
+      </text>
+	  
+      <text name="md_lbl_developer">
+ <visible>false</visible>                  
+      </text>
+	  
+      <text name="md_developer">
+ <visible>false</visible>         
+      </text>
+	  
+      <text name="md_lbl_lastplayed">
+ <visible>false</visible>         
+      </text>
+	  
+      <datetime name="md_lastplayed">
+ <visible>false</visible>                  
+      </datetime>  
+	  
+ 
+   </customView>
+   
+   </theme>

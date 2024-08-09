@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+
+      <view name="system">
+	  
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>200</zIndex>
+<maxLogoCount>1</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.1 0.1</logoSize>
+<logoScale>3</logoScale>
+<size>1 1</size>
+<pos>0 -0.13</pos>
+</carousel>
+
+
+	 <video name="backgroundvideo" extra="true">
+        <default>./default/_inc/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>  
+        <pos>0.5 0.38</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.85 0.7</size>
+        <delay>0</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <zIndex>1</zIndex>
+     </video>
+
+	   <image name="cliente" extra="true">
+		<pos>0.45 0.765</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+      <text name="systemInfo">
+        <pos>-0 0.68</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>cccccc</color>
+        <fontPath>./_inc/fonts/Open.ttf</fontPath>
+	    <fontSize>0.036</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+<image name="background13" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_inc/menu18.png</path>
+<zIndex>51</zIndex>
+</image>
+
+<image name="derecha1" extra="true">
+<pos>0.78 0.37</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/derecha.png</path>
+<zIndex>90</zIndex> 
+</image>
+
+<image name="izquierda1" extra="true">
+<pos>0.22 0.37</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/izquierda.png</path>
+<zIndex>90</zIndex> 
+</image>
+
+   
+	       <helpsystem name="help">
+	 <iconColor>ffffff</iconColor>
+	  <textColor>ffffff</textColor>
+	 <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     <fontSize>0.034</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.97</pos>
+     </helpsystem>
+
+
+
+       </view>
+
+</theme>

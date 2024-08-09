@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+     <image name="logo">
+       <linearSmooth>true</linearSmooth>
+	   	<path>./default/_inc/system.png</path>
+	   <path>./${system.theme}/_inc/system.png</path>
+	   <path>./_inc/menu/silver/${system.theme}.png</path>
+	   <storyboard event="activate" repeatAt="1">
+	   <animation property="opacity" to="1" begin="0" duration="0" mode="linear"/>
+	   <animation property="scale" from="1.1" to="1.2" begin="0" duration="1000" mode="easeOut"/>
+	   <animation property="scale" from="1.2" to="1.1" begin="1000" duration="1000" mode="easeOut"/>
+	   </storyboard>
+	   </image>
+       </view>
+    </theme>

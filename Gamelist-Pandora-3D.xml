@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------custom--------------------------------------->
+ 
+   <customView name="Gamelist Pandora 3D" inherits="detailed">
+   
+      <textlist name="gamelist">
+         <forceUppercase>1</forceUppercase>
+         <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+         <fontSize>0.032</fontSize>
+         <size>0.36 0.71</size>
+         <pos>0.2433 0.39</pos>
+         <origin>0.5 0.5</origin>
+		 <alignment>left</alignment>
+         <zIndex>42</zIndex>
+      </textlist>
+	  
+	  		<video name="md_video">
+			<pos>0.70612 0.39</pos>
+            <size>0.54 0.7</size>  
+			<origin>0.5 0.5</origin>
+			<delay>0.3</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+            <effect>none</effect>
+			<loops>9</loops>
+			<zIndex>51</zIndex> 
+		</video>	
+		
+	<image name="maqueta" extra="true">
+        <visible>false</visible> 
+	</image>
+		
+	   <image name="borde" extra="true">
+      <visible>false</visible>         
+      </image> 
+	  
+	  	   <image name="cliente" extra="true">
+		<pos>0.89 0.658</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	  
+	        <image name="fondodetalle01" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/3d.png</path>
+         <zIndex>8</zIndex>          
+      </image> 
+	  
+	  
+	  <image name="md_marquee">
+<pos>0.27 0.845</pos>
+<maxSize>0.09 0.09</maxSize>
+<origin>0.5 0.5</origin>
+<zIndex>91</zIndex>
+</image>
+
+      <image name="logo3D" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>
+         <pos>0.477 0.846</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.07 0.07</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	    <image name="logo001" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445 0.295</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	    <image name="logo002" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.247</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	    <image name="logo003" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.20</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	  	    <image name="logo004" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.342</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	  	  	    <image name="logo005" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.39</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	  	  	  	    <image name="logo006" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.44</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	 <image name="logo007" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.484</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+         <image name="logo008" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.531</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	        <image name="logo009" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.58</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	<image name="logo010" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.624</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	<image name="logo011" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.672</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	  	<image name="logo012" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.721</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	 <image name="logo013" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.105</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	 <image name="logo014" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.057</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+	  
+	  	  	  	 <image name="logo015" extra="true">
+         <linearSmooth>true</linearSmooth>
+         <origin>0.5 0.5</origin>      
+         <pos>0.0445  0.153</pos>
+		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}.png</path>
+         <maxSize>0.035 0.035</maxSize>
+         <zIndex>200</zIndex>         
+      </image>
+
+     <helpsystem name="help">
+	  <textColor>FFFFFF</textColor>
+	 <iconColor>ffffff</iconColor>
+     <fontSize>0.020</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.982</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 
+	 
+	 <image name="md_thumbnail">
+<zIndex>90</zIndex>
+<origin>0.5 0.5</origin>
+<pos>0.363 0.845</pos>
+<maxSize>0.12 0.12</maxSize>
+</image>
+
+
+
+
+
+
+
+<text name="md_lbl_releasedate">
+<pos>0.029 0.77</pos>
+<size>0.11 0.02</size>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<fontSize>0.02</fontSize>
+<zIndex>90</zIndex>
+</text>
+		
+<datetime name="md_releasedate">
+<zIndex>90</zIndex>
+<fontSize>0.02</fontSize>
+<pos>0.13 0.77</pos>
+<size>0.11 0.02</size>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+</datetime>
+
+
+
+
+
+
+
+<text name="md_lbl_genre">
+<pos>0.029 0.8</pos>
+<size>0.11 0.02</size>
+<fontSize>0.02</fontSize>
+<zIndex>90</zIndex>
+<color>FFFFFF</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+</text>
+		
+<text name="md_genre">
+<fontSize>0.02</fontSize>
+<size>0.11 0.02</size>
+<zIndex>90</zIndex>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<pos>0.13 0.8</pos>
+</text>
+
+<text name="md_lbl_developer">
+<pos>0.029 0.83</pos>
+<size>0.11 0.02</size>
+<fontSize>0.02</fontSize>
+<zIndex>90</zIndex>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+</text>
+		
+<text name="md_developer">
+<fontSize>0.02</fontSize>
+<pos>0.13 0.83</pos>
+<size>0.11 0.02</size>
+<zIndex>90</zIndex>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+</text>
+
+<text name="md_lbl_players">
+<pos>0.029 0.86</pos>
+<size>0.11 0.02</size>
+<fontSize>0.02</fontSize>
+<zIndex>90</zIndex>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+</text>
+
+<text name="md_players">
+<fontSize>0.02</fontSize>
+<zIndex>90</zIndex>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<pos>0.13 0.86</pos>
+<size>0.18 0</size>
+</text>
+		
+		
+<text name="md_lbl_playcount">
+<pos>0.029 0.89</pos>
+<size>0.18 0.033</size>
+<fontSize>0.02</fontSize>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<zIndex>90</zIndex>
+</text>
+		
+<text name="md_playcount">
+<fontSize>0.02</fontSize>
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<zIndex>90</zIndex>
+<pos>0.13 0.89</pos>
+<size>0.18 0.033</size>
+</text>
+
+<text name="md_description">
+<color>ffffff</color>
+<fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+<fontSize>0.020</fontSize>
+<size>0.45 0.14</size>
+<pos>0.746875 0.849</pos>
+<origin>0.5 0.5</origin>
+<zIndex>90</zIndex>
+</text>
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	  
+	   <video name="backgroundvideo2" extra="true">
+ <visible>false</visible>     
+</video>
+
+      <image name="fondoblack" extra="true">
+ <visible>false</visible>         
+      </image> 
+	  
+
+
+      <image name="character" extra="true">
+ <visible>false</visible>          
+      </image> 
+	  
+	        <image name="logo03" extra="true">
+ <visible>false</visible>        
+      </image>
+	  
+	  	  	<text name="logoText">
+ <visible>false</visible>
+    </text>
+	  
+	  	<text name="md_name">
+ <visible>false</visible> 
+		</text>
+		
+    
+
+	        <image name="fondodetalle" extra="true">
+ <visible>false</visible>            
+      </image> 
+	  
+    
+   </customView>
+   
+   </theme>

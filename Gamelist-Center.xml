@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------custom--------------------------------------->
+
+<customView name="Gamelist Center" inherits="gamecarousel">
+
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.34 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>-8</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel>
+
+	  <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+      <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+     </helpsystem>
+	  
+	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+
+	  <image name="player" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/playerlist.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>          
+       </image> 
+
+ <video name="md_video">
+        <rotation>-4</rotation>  
+        <roundCorners>0.04</roundCorners>             
+        <pos>0.45 0.485</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.4860 0.682</size>
+        <delay>0</delay>
+		<loops>3</loops>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+		<zIndex>200</zIndex>
+		</video>
+
+	  <image name="char" extra="true">
+		<pos>0.01 0.2</pos>
+		<maxSize>0.8 0.8</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+	<image name="md_fanart">
+	<color>ffffff</color>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>1</zIndex>
+    </image>
+
+<image name="pointer1" extra="true">
+<pos>0.97 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<color>ffffffA6</color>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>999</zIndex> 
+</image>
+
+<image name="pointer" extra="true">
+ <visible>false</visible> 
+</image>
+
+	<image name="system-background" extra="true">
+ <visible>false</visible> 
+    </image> 
+	
+			<rating name="md_rating">
+ <visible>false</visible> 
+		</rating>
+		
+  <image name="marco" extra="true">
+        <size>1 1</size>
+          <pos>0 0</pos>
+          <origin>0 0</origin>
+          <path>./_inc/batoceralist.png</path>
+          <zIndex>20</zIndex>
+         </image>
+	
+
+   		<image name="md_thumbnail">
+ <visible>false</visible> 
+		</image>
+		
+	  <image name="md_marquee">
+		<pos>0.4 0.15</pos>
+		<maxSize>0.35 0.35</maxSize>
+		<color>ffffff</color>
+		<rotation>-4</rotation> 
+       <zIndex>996</zIndex>
+     </image>
+   
+   
+	<text name="md_name">
+ <visible>false</visible> 		
+	</text>
+	
+	  <image name="sombra" extra="true">
+ <visible>false</visible> 	
+    </image> 
+	
+	<image name="logo03" extra="true">
+ <visible>false</visible> 
+	</image>
+	
+	<text name="logoText">
+ <visible>false</visible> 
+    </text>
+   </customView>
+   
+   </theme>

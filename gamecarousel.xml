@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------gamecarousel------------------------------------- -->
+
+<view name="gamecarousel">
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>-0.39 0</pos>
+<size>1 1</size>
+<logoScale>1.2</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>8</logoRotation>
+<logoRotationOrigin>-2.0 0.2</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+	  	  	<image name="cliente" extra="true">
+		<pos>0.91 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+    
+    <text name="gamecarouselLogoText">
+		<color>FFFFFFFF</color>
+		<glowColor>00000050</glowColor>
+		<glowSize>3</glowSize>
+		<glowOffset>3</glowOffset>
+		<lineSpacing>1.0</lineSpacing>
+        <fontPath>./_inc/fonts/rg.ttf</fontPath>
+        <fontSize>0.030</fontSize>
+    </text>	
+	
+<image name="pointer" extra="true">
+<pos>0.022 0.50</pos>
+<origin>0.5 0.5</origin>
+<color>ffffffD9</color>
+<size>0.045 0.145</size>
+<path>./art/sistemas/pointerl/default.png</path>
+<path>./art/sistemas/pointerl/${system.theme}.png</path>
+<zIndex>60</zIndex>
+<zIndex>999</zIndex>
+</image>
+
+	<image name="system-background" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<path>./default/_inc/character.png</path>
+    <path>./${system.theme}/_inc/character.png</path>
+    <zIndex>3</zIndex> 
+    </image> 
+	
+  <image name="sombra" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<path>./_inc/gamecarousel.png</path>
+    <zIndex>3</zIndex> 
+    </image> 
+
+   		<image name="md_thumbnail">
+			<origin>0.5 0.5</origin>
+			<pos>0.87 0.77</pos>
+			<maxSize>0.14 0.2</maxSize>
+			<zIndex>90</zIndex>
+		</image>
+		
+   		<image name="md_marquee">
+			<pos>0.62 0.134</pos>
+			<maxSize>0.253 0.199</maxSize>
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>900</zIndex> 
+		</image>
+ 
+	
+     <video name="md_video">
+		<color>ffffff</color>
+		<size>0.6 0.8</size>
+		<origin>0.5 0.5</origin>
+		<pos>0.65 0.485</pos>
+		<delay>0.4</delay>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
+		<zIndex>1</zIndex>
+     </video> 
+
+	<text name="md_name">
+		<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+		<fontSize>0.05</fontSize>
+		<pos>0.53 0.90</pos>
+		<size>0.3 0.0248148148148148</size>
+		<alignment>left</alignment>
+		<color>ffffff</color>
+		<glowColor>10101099</glowColor>			
+		<glowSize>3</glowSize>			
+	</text>
+	
+	<image name="logo03" extra="true">
+        <pos>0.845 0.1</pos>
+        <maxSize>0.10 0.10</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+	
+	
+		<text name="logoText">
+		<pos>0.691 0.444</pos>
+	    <fontSize>0.11</fontSize>
+		<fontPath>./_inc/fonts/1.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+        <color>FFFFFFB3</color>
+        <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text>
+	
+</view>  
+   
+   </theme>

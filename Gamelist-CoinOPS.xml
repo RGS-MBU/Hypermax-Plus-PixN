@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+   <!---------------------------custom--------------------------------------->
+
+<customView name="Gamelist CoinOPS" inherits="gamecarousel">
+<gamecarousel name="gamecarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.31 0</pos>
+<size>1 1</size>
+<logoScale>1.45</logoScale>
+<logoSize>0.150 0.260</logoSize>
+<color>00000000</color>
+<maxLogoCount>30</maxLogoCount>
+<logoRotation>-8</logoRotation>
+<logoRotationOrigin>3.0 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>   
+<imageSource>marquee</imageSource>
+</gamecarousel> 
+
+	  <image name="cliente" extra="true">
+		<pos>0.248 0.235</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+
+	  	<video name="md_video">
+			<pos>0.29 0.54</pos>
+			<size>0.4 0.50</size>
+			<origin>0.5 0.5</origin>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo> 
+			<showSnapshotDelay>false</showSnapshotDelay>
+		    <loops>3</loops>
+			<delay>0.5</delay> 
+			<effect>none</effect>
+			<zIndex>4</zIndex> 
+		</video>
+		      <image name="md_image">
+	  	<pos>0.29 0.54</pos>
+        <origin>0.5 0.5</origin>
+		<size>0.4 0.50</size>
+         <zIndex>3</zIndex>         
+      </image> 
+
+	    <image name="maqueta" extra="true">
+<pos>0.287 0.121</pos>
+<size>0.455 0.200</size>
+	  <color>ffffff</color>
+	  <path>./default/_inc/system1.png</path>
+	  <path>./${system.theme}/_inc/system1.png</path>
+      <origin>0.5 0.5</origin>
+	  <zIndex>2</zIndex>
+	</image>
+
+	<image name="md_fanart">
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <size>1 1</size>
+      <zIndex>1</zIndex>
+    </image>
+
+<image name="pointer1" extra="true">
+<pos>0.97 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<color>ffffffA6</color>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>999</zIndex> 
+</image>
+
+<image name="pointer" extra="true">
+ <visible>false</visible>
+</image>
+
+	<image name="system-background" extra="true">
+ <visible>false</visible> 
+    </image> 
+	
+			<rating name="md_rating">
+ <visible>false</visible> 
+		</rating>
+		
+  <image name="sombra" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<path>./_inc/CoinOPS.png</path>
+    <zIndex>5</zIndex> 
+    </image> 
+	
+	  <image name="sombra1" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<path>./_inc/CoinOPS1.png</path>
+    <zIndex>3</zIndex> 
+    </image> 
+
+   		<image name="md_thumbnail">
+ <visible>false</visible> 
+		</image>
+		
+	  <image name="md_marquee">
+ <visible>false</visible> 
+</image>
+   
+
+	<text name="md_name">
+ <visible>false</visible> 		
+	</text>
+	
+	<image name="logo03" extra="true">
+ <visible>false</visible> 
+	</image>
+	
+	<text name="logoText">
+ <visible>false</visible> 
+    </text>
+   </customView>
+   
+   </theme>

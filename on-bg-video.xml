@@ -1,0 +1,19 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+	 <video name="bg-video-sys" extra="static">
+	  <path>./_inc/videos/${system.theme}.mp4</path>
+	  <pos>0 0</pos>
+	  <size>1 1</size>
+      <origin>0 0</origin>
+      <delay>0.8</delay>
+	  <effect>none</effect>
+	  <zIndex>999</zIndex>
+    </video>
+
+		<video name="backgroundvideo" extra="true">
+<visible>false</visible>
+</video>
+</view>
+</theme>

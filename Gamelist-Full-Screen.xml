@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+     <!---------------------------custom------------------------------------- -->
+
+   <customView name="Gamelist Full Screen" inherits="detailed">
+	      <image name="fondodetalle" extra="true">
+        <visible>false</visible>          
+      </image> 
+	   <image name="fondoblack" extra="true">
+        <visible>false</visible>           
+      </image> 
+	  <text name="md_description">
+	   	<visible>false</visible>
+       </text>
+	   	<video name="backgroundvideo2" extra="true">
+	   	<visible>false</visible>     
+       </video>
+	   <image name="fondoblack" extra="true">
+        <visible>false</visible>
+      </image> 	  
+	  <text name="md_lbl_rating">
+        <visible>false</visible>                
+      </text>
+      <rating name="md_rating">
+        <visible>false</visible>  
+      </rating>
+      <text name="md_lbl_players">
+        <visible>false</visible>       
+      </text>
+      <text name="md_players">
+        <visible>false</visible>                
+      </text>
+      <text name="md_lbl_releasedate">
+        <visible>false</visible>        
+      </text>
+      <datetime name="md_releasedate">
+        <visible>false</visible>               
+      </datetime>
+      <text name="md_lbl_genre">
+        <visible>false</visible>                  
+      </text>
+      <text name="md_genre">
+        <visible>false</visible>        
+      </text>         
+      <text name="md_lbl_publisher">
+        <visible>false</visible>                  
+      </text>
+      <text name="md_publisher">
+        <visible>false</visible>        
+      </text>
+      <text name="md_lbl_developer">
+        <visible>false</visible>                  
+      </text>
+      <text name="md_developer">
+        <visible>false</visible>          
+      </text>
+      <text name="md_lbl_lastplayed">
+        <visible>false</visible>         
+      </text>
+      <datetime name="md_lastplayed">
+        <visible>false</visible>                  
+      </datetime> 
+	  <text name="md_name">
+        <visible>false</visible>   
+	  </text>  
+	  <image name="md_image">
+        <visible>false</visible> 
+      </image>
+      <image name="md_marquee">
+        <visible>false</visible>
+      </image>
+      <image name="md_thumbnail">
+        <visible>false</visible>
+      </image>
+	   <image name="maqueta" extra="true">
+       <visible>false</visible>
+	  </image>
+	  
+	
+	<image name="fondobasic" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/basic.png</path>
+         <zIndex>5</zIndex>          
+      </image> 
+	  
+	  		  <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+ 	
+	<video name="md_video">
+      <pos>0 0</pos>
+	  <size>1 1</size>
+      <origin>0 0</origin>
+      <delay>0.4</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <loops>2</loops>
+	  <zIndex>150</zIndex>
+    </video>
+
+   <textlist name="gamelist">
+      <forceUppercase>1</forceUppercase>
+	  <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+      <pos>0.45 0.14</pos>
+      <size>0.45 0.74</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0.03</horizontalMargin>
+      <fontSize>0.030</fontSize>
+	 </textlist>
+	
+	 <image name="logo03" extra="true">
+        <pos>0.58 0.01</pos>
+        <maxSize>0.16 0.16</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>	
+		<color>ffffff</color>
+	    <zIndex>50</zIndex>
+	</image>
+  </customView>
+   
+   </theme>

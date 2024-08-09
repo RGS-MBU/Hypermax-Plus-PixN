@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+ <!---------------------------custom------------------------------------- -->
+
+<customView name="Gamelist ScreenShot" inherits="grid">
+        <image name="md_thumbnail">
+          <visible>false</visible> 
+		</image>
+	  
+	<text name="md_genre">
+			<size>0.10 0.10</size>
+			<color>ffffff</color> 
+			<origin>0.5 0.5</origin>
+			<pos>0.10 0.83</pos>
+			<fontSize>0.02</fontSize>
+			<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+			<zIndex>91</zIndex>  
+		</text>
+		
+	  <image name="cliente" extra="true">
+		<pos>0.46 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	
+	<text name="md_description">
+	  	<color>ffffff</color>
+		<fontSize>0.024</fontSize>
+		<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+		<size>0.52 0.07</size>
+		<pos>0.19 0.80</pos>
+    </text>
+
+	<text name="md_name">
+			<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<glowColor>101010</glowColor>
+			<pos>0.05 0.03</pos>
+			<size>0.30 0.0248148148148148</size>
+			<alignment>left</alignment>
+			<color>ffffff</color>
+		</text>
+	
+	<image name="md_marquee">
+			<origin>1 0.5</origin>
+			<pos>0.95 0.052</pos>
+			<maxSize>0.2 0.08</maxSize>
+		</image>
+	
+	
+		<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	
+	<image name="shadowcover01" extra="true">
+		<path>./_inc/box1.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>10</zIndex>
+	</image>
+	
+	   <video name="md_video">
+		<color>ffffff</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.85 0.485</pos>
+		<delay>999</delay>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+		<zIndex>1</zIndex>      
+     </video>
+	  
+    <imagegrid name="gamegrid">
+		<color>000000</color>
+		<pos>0 0.105</pos>
+		<size>1 0.67</size>
+		<autoLayout>5 3</autoLayout>
+		<margin>0 0</margin>
+		<padding>0.05 0 0.05 0</padding>
+		<autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+		<animateSelection>false</animateSelection>
+		<imageSource>image</imageSource>
+        <zIndex>300</zIndex>
+		<showVideoAtDelay>2</showVideoAtDelay>
+    </imagegrid>
+	
+    <image name="gridtile.image">
+      <roundCorners>0.06</roundCorners>
+    </image>
+	
+    <gridtile name="default">
+      <imageSizeMode>minSize</imageSizeMode>	
+      <backgroundColor>00000000</backgroundColor>
+      <backgroundCornerSize>0.06</backgroundCornerSize>
+      <selectionMode>video</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>ffffff</imageColor>
+      <reflexion>0.25 0.0</reflexion>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <backgroundEdgeColor>ffffff4D</backgroundEdgeColor>	
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>ffffff4D</animateColor>
+      <animateColorTime>5000</animateColorTime>
+    </ninepatch>
+
+   <image name="gridtile.marquee">
+      <origin>0.5 0.5</origin>
+      <pos>0.5 0.5</pos>
+      <color>FFFFFFFF</color>
+      <size>0.96 0.96</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <origin>0 0</origin>
+      <pos>0.05 0.01</pos>
+      <color>ffffff</color>
+      <size>0.96 0.1</size>
+    </image>
+
+    <image name="gridtile.marquee:videoplaying">
+	  <origin>0 0</origin>
+      <pos>0.05 0.01</pos>
+      <color>ffffff00</color>
+      <size>0.96 0.10</size>
+	  </image> 
+
+	<image name="logo03" extra="true">
+        <pos>0.73 0.79</pos>
+        <maxSize>0.20 0.20</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>	 
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+	
+		<text name="logoText">
+		<pos>0.697 0.444</pos>
+	    <fontSize>0.09</fontSize>
+		<fontPath>./_inc/fonts/1.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+            <color>FFFFFFB3</color>
+           <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text>
+   </customView>  
+   
+   </theme>

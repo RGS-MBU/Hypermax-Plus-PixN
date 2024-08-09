@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------basic------------------------------------- -->
+
+<view name="basic">	
+      <textlist name="gamelist">
+         <zIndex>5</zIndex>	      
+         <pos>0.49 0.16</pos>
+         <size>0.39 0.70</size>
+         <fontPath>./_inc/fonts/zelek.ttf</fontPath>
+         <fontSize>0.02</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>center</alignment>      
+      </textlist>
+	  
+	  	   <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/Digital-Serial-Bold-folder.ttf</fontPath>
+     </helpsystem>
+	 
+	 	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>999</zIndex>          
+      </image> 
+	  
+	  	<image name="basicblack" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/basicblack.png</path>
+         <zIndex>2</zIndex>          
+      </image> 
+		 
+	<image name="system-background" extra="true">
+    <origin>0 0</origin>
+    <pos>0 0</pos>
+    <size>1 1</size>
+	<path>./default/_inc/character.png</path>
+    <path>./${system.theme}/_inc/character.png</path>
+    <zIndex>3</zIndex> 
+    </image> 
+	
+		 <image name="system-background1" extra="true">
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+	    <color>ffffff33</color>
+	    <path>./default/_inc/background.png</path>
+        <path>./${system.theme}/_inc/background.png</path>
+        <zIndex>1</zIndex>          
+     </image> 
+
+    <image name="consoles1" extra="true">
+		<pos>0.05 0.73</pos>
+		<maxSize>0.20 0.20</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/console.png</path>
+		<path>./_inc/consoles/${system.theme}.svg</path>
+		<path>./_inc/consoles/${system.theme}.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+ <image name="logo03" extra="true">
+        <pos>0.58 0.01</pos>
+        <maxSize>0.16 0.16</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+
+	<image name="fondobasic" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/basic.png</path>
+         <zIndex>5</zIndex>          
+      </image> 
+	  
+		<text name="logoText">
+		<pos>0.691 0.444</pos>
+	    <fontSize>0.11</fontSize>
+		<fontPath>./_inc/fonts/1.ttf</fontPath>
+	    <size>0.57 0.1</size>
+		<alignment>center</alignment>
+        <color>FFFFFFB3</color>
+        <forceUppercase>1</forceUppercase>
+	    <rotation>-90</rotation>   
+	    <zIndex>999</zIndex>
+    </text>
+</view>
+   
+   </theme>

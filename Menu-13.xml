@@ -1,0 +1,122 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+
+      <view name="system">
+	  
+<carousel name="systemcarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.294 0</pos>
+<size>1 1</size>
+<logoSize>0.16 0.16</logoSize>
+<color>00000000</color>
+<maxLogoCount>19</maxLogoCount>
+<logoRotation>-7.5</logoRotation>
+<logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>       
+</carousel>
+
+	  <image name="cliente" extra="true">
+		<pos>0.575 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.195 0.223</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/Open.ttf</fontPath>
+	    <fontSize>0.032</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+<image name="background13" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_inc/comic5.png</path>
+<zIndex>20</zIndex>
+</image>
+
+
+<image name="markee" extra="true">
+<size>0.5 0.24</size>
+<pos>0.046 -0.01</pos>
+<origin>0 0</origin>
+<path>./${system.theme}/_inc/system2.png</path>
+<zIndex>19</zIndex>
+</image>
+
+
+<image name="hpblack" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_inc/comic5black.png</path>
+<zIndex>18</zIndex>
+</image>
+
+    
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+		 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>	
+	
+<image name="pointer" extra="true">
+<pos>0.963 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.075 0.175</size>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>60</zIndex>
+</image>
+
+   
+
+<video name="backgroundvideo" extra="true">
+<default>./default/_inc/noise.mp4</default>
+<visible>true</visible>
+<effect>none</effect>
+<path>{random}</path>                  
+<pos>0.299 0.535</pos>
+<size>0.38 0.50</size>
+<origin>0.5 0.5</origin>
+<delay>0.03</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>   
+<zIndex>19</zIndex>
+</video>
+
+   
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.30 0.978</pos>
+     <fontPath>./_inc/Shaka_Pow.ttf</fontPath>
+     </helpsystem>
+
+   
+	  <image name="char1" extra="true">
+		<pos>0.58 0.67</pos>
+		<maxSize>0.3 0.3</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+       </view>
+
+</theme>

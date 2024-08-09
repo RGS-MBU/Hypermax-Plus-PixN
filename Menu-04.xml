@@ -1,0 +1,154 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+      <carousel name="systemcarousel">
+<zIndex>43</zIndex>	      
+<type>vertical_wheel</type>
+<pos>0.367 0</pos>
+<size>1 1</size>
+<logoSize>0.122 0.122</logoSize>
+<color>00000000</color>
+<maxLogoCount>19</maxLogoCount>
+<logoRotation>-5</logoRotation>
+<logoRotationOrigin>3.50 0.5</logoRotationOrigin>
+<logoAlignment>center</logoAlignment>       
+</carousel>
+
+	  <image name="cliente" extra="true">
+		<pos>0.65 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.15 0.84</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+	    <rotation>-4</rotation> 
+        <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+<image name="background3" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<color>ffffff</color>
+<path>./art/sistemas/fondos/circulobg.png</path>
+<zIndex>30</zIndex>
+</image> 
+
+      <image name="consoles" extra="true">
+		<pos>0.574 0.76</pos>
+		<maxSize>0.20 0.20</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/console.png</path>
+		<path>./_inc/consoles/${system.theme}.svg</path>
+		<path>./_inc/consoles/${system.theme}.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+	   <image name="consolespeque" extra="true">
+		<pos>0.01 0.037</pos>
+		<maxSize>0.04 0.04</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/console.png</path>
+		<path>./_inc/consoles/${system.theme}.svg</path>
+		<path>./_inc/consoles/${system.theme}.png</path>
+		<zIndex>29</zIndex>
+	  </image>
+
+ <image name="background4" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<color>ffffff</color>
+<path>./art/sistemas/fondos/rueda.png</path>
+<zIndex>24</zIndex>
+</image> 
+
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+		 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	  <image name="logoz" extra="true">
+		<pos>0.01 0.95</pos>
+		<maxSize>0.035 0.035</maxSize>
+		<color>ffffff33</color>
+		<path>./_inc/logoz.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+	<image name="logotype1" extra="true">
+		<pos>0.25 0.01</pos>
+		<maxSize>0.25 0.25</maxSize>
+		<color>ffffff</color>
+		<rotation>-4</rotation>  
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+ 	 
+	  <image name="char" extra="true">
+		<pos>0.01 0.5</pos>
+		<maxSize>0.5 0.5</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+	  
+	  <image name="pointer0" extra="true">
+<pos>0.706 0.520</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.075 0.175</maxSize>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>90</zIndex> 
+</image>
+	 
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.028</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.375 0.98</pos>
+     <fontPath>./_inc/fonts/Open.ttf</fontPath>
+     </helpsystem>
+	
+
+<video name="backgroundvideo" extra="true">
+        <default>./_inc/scotty.mp4</default>
+<visible>true</visible>
+<path>{random}</path>
+<path>./art/sistemas/videos/${system.theme}.mp4</path>  
+<rotation>0</rotation>  
+<roundCorners>0.43</roundCorners>             
+<pos>0.3500 0.498</pos>
+<origin>0.5 0.5</origin>
+<size>0.3730 0.6590</size>
+<delay>0.3</delay>
+<showSnapshotNoVideo>false</showSnapshotNoVideo>
+<showSnapshotDelay>false</showSnapshotDelay>
+<color>FFFFFF</color>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="550" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>
+<zIndex>25</zIndex>
+</video>
+
+       </view>
+    </theme>

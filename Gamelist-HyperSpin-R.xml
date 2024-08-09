@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------custom------------------------------------- -->
+	 
+		<customView name="Gamelist HyperSpin-R" inherits="gamecarousel">
+	
+	   		<image name="md_marquee">
+			<pos>0.52 0.134</pos>
+			<maxSize>0.253 0.199</maxSize>
+			<origin>0.5 0.5</origin>
+			<linearSmooth>true</linearSmooth>
+			<zIndex>900</zIndex> 
+		</image>
+		
+			  <image name="cliente" extra="true">
+		<pos>0.48 0.88</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+      <fontPath>./_inc/fonts/Cabin-Bold.ttf</fontPath>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+     </helpsystem>
+	  
+	        <image name="borde" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/borde.png</path>
+         <zIndex>99999</zIndex>          
+      </image> 
+
+		<image name="art" extra="true">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<minSize>1 1</minSize>
+			<path>./_inc/images/overlay1.png</path>
+			<zIndex>100</zIndex>
+		</image>
+
+		 <image name="md_fanart">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 1</size>
+			<color>FFFFFFDF</color>
+            <zIndex>1</zIndex>
+         </image>
+
+		<text name="md_description">
+			<fontPath>./_inc/fonts/ubuntu_condensed.ttf</fontPath>
+			<pos>0.025 0.226111111111111</pos>
+			<size>0.3098125 0.2880555555555556</size>
+			<fontSize>0.025</fontSize>
+			<color>FFFFFFff</color>
+			<glowColor>00000016</glowColor>
+			<glowSize>3</glowSize>
+			<zIndex>150</zIndex>
+		</text>
+
+        <gamecarousel name="gamecarousel">
+           <zIndex>999</zIndex>	      
+           <type>vertical_wheel</type>
+           <pos>0.36 0</pos>
+           <size>1 1</size>
+           <logoScale>1.2</logoScale>
+           <logoSize>0.150 0.260</logoSize>
+           <color>00000000</color>
+           <maxLogoCount>15</maxLogoCount>
+           <logoRotation>-14</logoRotation>
+           <logoRotationOrigin>2.0 0.2</logoRotationOrigin>
+           <logoAlignment>center</logoAlignment>   
+           <imageSource>marquee</imageSource>
+        </gamecarousel> 
+
+		<gridtile name="default">
+			<backgroundColor>FFFFFF00</backgroundColor>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<selectionMode>image</selectionMode>
+			<padding>0 0</padding>
+			<imageColor>A0A0A070</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+			<backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+			<imageColor>FFFFFFFF</imageColor>
+		</gridtile>
+		<text name="gridtile">
+			<color>80808080</color>
+			<fontSize>0.016</fontSize>
+			<size>1 0</size>
+		</text>
+		<text name="gridtile_selected">
+			<color>FFFFFF00</color>
+			<fontSize>0.035</fontSize>
+			<size>1 0</size>
+		</text>
+		<image name="gridtile.favorite">
+			<color>FFFFFF00</color>
+			<visible>false</visible>
+		</image>
+		<ninepatch name="gridtile.background:selected">
+			<color>FFFFFF00</color>
+			<visible>false</visible>
+			<animateColor>FFFFFF00</animateColor>
+			<animateColorTime>0</animateColorTime>
+		</ninepatch>
+		<video name="md_video">
+			<pos>0.17 0.725555555555556</pos>
+			<maxSize>0.30 0.3833333333333333</maxSize>
+			<size>0.30 0.3833333333333333</size>
+			<origin>0.5 0.5</origin>
+			<delay>0.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<effect>none</effect>
+			<zIndex>150</zIndex>
+		</video>
+		<image name="logo03">
+			<path>./_inc/logos/${system.theme}.png</path>
+			<path>./_inc/logos/${system.theme}-${lang}.png</path>
+			<pos>0.12 0.12</pos>
+			<maxSize>0.200 0.126</maxSize>
+			<origin>0.5 0.5</origin>
+			<zIndex>150</zIndex>
+		</image>
+		<text name="logoText">
+<visible>false</visible>
+		</text>
+		<datetime name="md_releasedate">
+			<origin>0.5 1</origin>
+			<pos>0.0358 0.79</pos>
+			<rotation>-90</rotation>
+			<zIndex>140</zIndex>
+		</datetime>
+		<image name="md_flag">
+<visible>false</visible>
+		</image>
+
+
+<image name="pointer1" extra="true">
+<pos>0.97 0.50</pos>
+<origin>0.5 0.5</origin>
+<size>0.055 0.155</size>
+<color>ffffffA6</color>
+<path>./art/sistemas/pointer/default.png</path>
+<path>./art/sistemas/pointer/${system.theme}.png</path>
+<zIndex>999</zIndex> 
+</image>
+
+<image name="pointer" extra="true">
+<visible>false</visible>
+</image>
+
+  <image name="sombra" extra="true">
+<visible>false</visible>
+    </image> 
+
+	      <image name="character" extra="true">
+<visible>false</visible>
+      </image> 
+   
+   		<image name="md_thumbnail">
+<visible>false</visible>
+		</image>
+	  
+		 
+			<text name="logoText">
+<visible>false</visible>
+    </text> 
+	
+		<text name="md_name">
+<visible>false</visible>		
+	</text>
+	
+		<image name="system-background" extra="true">
+<visible>false</visible>
+    </image> 
+ </customView>	  
+   
+   </theme>

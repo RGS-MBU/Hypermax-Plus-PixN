@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------custom------------------------------------- -->
+
+    <customView name="Gamelist wall" inherits="grid">
+		<image name="md_thumbnail">
+          <visible>false</visible> 
+		</image>
+	
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.04 0.76</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+	
+	
+    <imagegrid name="gamegrid">
+      <pos>0 0.45</pos>
+      <size>1 0.774</size>
+      <padding>0.05 0.14 0.05 0.30</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+	  <imageSource>thumbnail</imageSource>
+      <scrollLoop>true</scrollLoop>
+    </imagegrid>
+	
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFF</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+	
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>
+
+      <image name="character" extra="true">
+      <visible>false</visible>        
+      </image> 
+  
+
+	<video name="md_video">
+      <pos>0 0</pos>
+	  <size>1 1</size>
+      <origin>0 0</origin>
+      <delay>2</delay>
+	  <effect>none</effect>
+      <showSnapshotNoVideo>false</showSnapshotNoVideo>
+      <showSnapshotDelay>false</showSnapshotDelay>
+      <loops>2</loops>
+	  <zIndex>400</zIndex>
+    </video>
+
+		<text name="md_name">
+         <visible>false</visible>  		
+		</text>
+	
+		<image name="shadowcover01" extra="true">
+        <visible>false</visible> 
+	   </image>
+	   
+      <image name="md_marquee">
+         <pos>0.07 0.07</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.10 0.10</maxSize>
+         <zIndex>10</zIndex>         
+      </image>
+		   
+	  <image name="logo03" extra="true">
+        <visible>false</visible> 
+	  </image>
+	  
+	  <text name="logoText">
+         <visible>false</visible>
+      </text>
+		
+	<image name="system-background" extra="true">
+       <origin>0 0</origin>
+       <pos>0 0</pos>
+       <size>1 1</size>
+  	   <path>./default/_inc/wall-d.jpg</path>
+       <path>./_inc/wallpaper/${system.theme}.jpg</path>
+      <zIndex>1</zIndex>          
+    </image>
+  </customView>
+   
+   </theme>

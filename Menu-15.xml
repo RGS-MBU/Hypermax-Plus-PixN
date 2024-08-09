@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>  
+
+      <view name="system">
+	  
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>200</zIndex>
+<maxLogoCount>1</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.1 0.1</logoSize>
+<logoScale>4.5</logoScale>
+<size>1 1</size>
+<pos>0 -0.05</pos>
+</carousel>
+
+	   <image name="cliente" extra="true">
+		<pos>0.09 0.03</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+	  
+
+	 <video name="backgroundvideo" extra="true">
+        <default>./default/_inc/noise.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>  
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+        <size>1 1</size>
+        <delay>0</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <zIndex>1</zIndex>
+     </video>
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0 0.81</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/Open.ttf</fontPath>
+	    <fontSize>0.048</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+
+<image name="background13" extra="true">
+<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
+<path>./_inc/menupandora.png</path>
+<zIndex>51</zIndex>
+</image>
+
+<image name="derecha" extra="true">
+<pos>0.9 0.45</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/derecha.png</path>
+<zIndex>90</zIndex> 
+</image>
+
+<image name="izquierda" extra="true">
+<pos>0.05 0.45</pos>
+<origin>0.5 0.5</origin>
+<maxSize>0.20 0.20</maxSize>
+<path>./_inc/izquierda.png</path>
+<zIndex>90</zIndex> 
+</image>
+
+   
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.038</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.97</pos>
+        <fontPath>./_inc/fonts/Open.ttf</fontPath>
+     </helpsystem>
+
+
+
+       </view>
+
+</theme>

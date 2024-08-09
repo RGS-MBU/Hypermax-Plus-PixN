@@ -1,0 +1,101 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+     <carousel name="systemcarousel">
+		<type>vertical</type>
+		<pos>0.015 0</pos>
+		<size>1 1</size>
+		<origin>0 0</origin>
+		<color>00000000</color>
+		<logoSize>0.163 0.163</logoSize>
+		<logoAlignment>right</logoAlignment>
+		<maxLogoCount>7</maxLogoCount>
+		<defaultTransition>instant</defaultTransition>	
+		<zIndex>50</zIndex>
+	 </carousel>
+	 
+	 <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.15 0.84</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+
+ 	  <image name="background3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/vertical.png</path>
+		 <color>ffffff</color>
+         <zIndex>10</zIndex>          
+      </image> 
+	    
+	  <image name="logoz" extra="true">
+		<pos>0.01 0.95</pos>
+		<maxSize>0.035 0.035</maxSize>
+		<color>ffffff33</color>
+		<path>./_inc/logoz.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+	  <image name="room" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/room.png</path>
+		 <zIndex>2</zIndex>
+     </image>
+
+	<image name="logotype1" extra="true">
+		<pos>0.25 0.01</pos>
+		<maxSize>0.28 0.28</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.47 0.98</pos>
+     <fontPath>./_inc/Shaka_Pow.ttf</fontPath>
+     </helpsystem>
+	
+		
+      <video name="backgroundvideo" extra="true">
+        <default>./_inc/scotty.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>              
+        <pos>0.285 0.555</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.52 0.586</size>
+        <delay>0.3</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+        <storyboard>
+        <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+        <animation property="opacity" from="0" to="1" duration="350" mode="easeIn"/>
+        <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+        </storyboard>
+        <zIndex>1</zIndex>
+     </video>
+
+     </view>
+     </theme>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+    <!---------------------------custom------------------------------------- -->
+
+  <customView name="Gamelist caratula" inherits="grid">
+       <image name="md_thumbnail">
+          <visible>false</visible> 
+		</image>
+
+      <image name="character" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <zIndex>9</zIndex>
+      </image> 
+	  
+	  	  <image name="cliente" extra="true">
+		<pos>0.01 0.01</pos>
+		<maxSize>0.08 0.08</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/assets/cliente.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+ 
+	  <text name="md_name">
+			<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.55 0.90</pos>
+			<size>0.3 0.0248148148148148</size>
+			<alignment>left</alignment>
+			<color>ffffff</color>
+			<glowColor>10101099</glowColor>			
+			<glowSize>3</glowSize>			
+		</text>
+
+	
+		<gridtile name="default">
+			<size>0.22875 0.33</size>
+			<backgroundColor>00000000</backgroundColor>
+		</gridtile>
+	
+	<image name="shadowcover01" extra="true">
+		<path>./_inc/basic.png</path>
+		<size>1 1</size>
+		<pos>0 0</pos>
+		<origin>0 0</origin>
+		<zIndex>10</zIndex>
+	</image>
+	
+	<image name="logo03" extra="true">
+        <pos>0.53 0.01</pos>
+        <maxSize>0.20 0.20</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>	 
+		<color>ffffff</color>
+	    <zIndex>400</zIndex>
+	</image>
+
+     <video name="md_video">
+		<color>ffffff</color>
+		<origin>0.5 0.5</origin>
+		<pos>0.65 0.485</pos>
+		<delay>1</delay>
+		<effect>none</effect>		 
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+		<zIndex>7</zIndex>      
+     </video> 
+	  	
+	 <imagegrid name="gamegrid">
+      <pos>0.15 0.10</pos>
+      <size>1 0.774</size>
+      <padding>0.05 0.14 0.05 0.15</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+	  <imageSource>thumbnail</imageSource>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>7</zIndex>
+    </imagegrid>
+	
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFF</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+	
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>
+	
+	 <image name="md_marquee">
+         <pos>0.65 0.80</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.20 0.20</maxSize>
+		 <reflexion>0.24 0.0</reflexion>
+         <zIndex>10</zIndex>         
+      </image> 
+   </customView>
+   
+   
+   </theme>

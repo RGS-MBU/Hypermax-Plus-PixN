@@ -1,0 +1,237 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+         <image name="pointer" extra="true">
+          <storyboard repeat="forever">
+          <animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+          </storyboard>
+         </image>
+		 
+		 <image name="pointer0" extra="true">
+           <storyboard repeat="forever">
+           <animation property="x" from="0.706" to="0.701" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+           </storyboard>
+          </image>
+
+      <text name="systemInfo">
+	    <storyboard>
+        <animation property="y" from="0.7" begin="1300" duration="350" mode="easeOutQuint"/>
+        <animation property="scale" to="1.05" begin="0" duration="200" autoreverse="true" repeat="forever" mode="easeOut"/>
+        <animation property="opacity" from="0" to="0" duration="1300" mode="linear"/>
+        <animation property="opacity" from="0" to="1" begin="1300" duration="350" mode="linear"/>
+	    </storyboard>
+      </text> 
+
+	   <image name="wallpaper1" extra="true">
+	     <storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.2" begin="350" autoreverse="true" duration="3200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		 </storyboard>
+      </image>
+
+	  <image name="logoz" extra="true">
+		<storyboard>
+        <animation property="scale" to="1.05" begin="0" duration="400" autoreverse="true" repeat="forever" mode="easeOut"/>
+        <animation property="opacity" from="0" to="0" duration="0" mode="linear"/>
+        <animation property="opacity" from="0" to="1" begin="0" duration="350" mode="linear"/>
+        </storyboard>  
+	  </image>
+
+	<image name="logotype1" extra="true">
+		<storyboard>
+        <animation property="x" from="0" begin="0" duration="500" mode="easyOut"/>
+        <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+        <animation property="y" from="-0.01" begin="0" duration="500" autoreverse="true" repeat="forever" mode="easyInOut"/>
+		</storyboard>
+	  </image>
+	  
+	  	<image name="logotype2" extra="true">
+			<storyboard>
+        		<animation property="reflexion" from="0 0" begin="350" duration="350" mode="easeOut"/>
+        		<animation property="scale" to="1.05" begin="0" duration="800" autoreverse="true" repeat="forever" mode="easeOut"/>
+        		<animation property="opacity" from="0" to="0" duration="300" mode="linear"/>
+        		<animation property="opacity" from="0" to="1" begin="300" duration="350" mode="linear"/>
+		</storyboard>
+	  </image>
+ 	 
+<!-- 	  <image name="char" extra="true">
+		<storyboard> 
+        <animation property="x" from="-0.1" begin="0" duration="600" mode="Bump"/>
+        <animation property="scale" to="1.05" begin="600" autoreverse="true" duration="800" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" to="2.5" begin="600" autoreverse="true" duration="800" repeat="forever" mode="easyIn"/>
+		</storyboard>   
+	  </image> -->
+	  
+	  	  <image name="char" extra="true">
+		<storyboard> 
+        <animation property="x" from="-0.1" begin="0" duration="600" mode="Bump"/>
+          <animation property="scale" to="1.08" begin="600" autoreverse="true" duration="900" repeat="forever" mode="easyIn"/>
+		<animation property="rotation" to="-5.5" begin="600" autoreverse="true" duration="900" repeat="forever" mode="easyIn"/>
+		</storyboard>   
+	  </image>
+	  
+	   <image name="char1" extra="true">
+		<storyboard> 
+        <animation property="scale" to="1.08" begin="600" autoreverse="true" duration="600" repeat="forever" mode="easyIn"/>
+		</storyboard> 
+	  </image>
+	  
+	  <image name="character" extra="true">
+	    <storyboard>
+        <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+        <animation property="y" from="-0.01" begin="0" duration="500" autoreverse="true" repeat="forever" mode="easyInOut"/>
+	 </storyboard>
+     </image>
+		
+		<image name="derecha" extra="true">
+<storyboard repeat="forever">
+<animation property="x" from="0.9" to="0.95" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+</image>
+
+<image name="izquierda" extra="true">
+<storyboard repeat="forever">
+<animation property="x" from="0.05" to="0.1" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+</image>
+
+		<image name="derecha1" extra="true">
+<storyboard repeat="forever">
+<animation property="x" from="0.78" to="0.83" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+</image>
+
+<image name="izquierda1" extra="true">
+<storyboard repeat="forever">
+<animation property="x" from="0.17" to="0.22" duration="1000" autoreverse="true" begin="100" repeat="forever"/>
+</storyboard>
+</image>
+		
+	  <image name="consoles" extra="true">
+		<storyboard> 
+        <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+        <animation property="scale" to="1.02" begin="1100" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+		</storyboard>  
+	  </image>
+
+</view>
+
+
+
+
+
+
+
+<view name="basic, detailed, video, grid, gamecarousel">
+	
+	<image name="system-background" extra="true">
+	<storyboard>
+        <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+        <animation property="y" from="-0.01" begin="0" duration="500" autoreverse="true" repeat="forever" mode="easyInOut"/>
+		</storyboard>
+    </image> 
+	
+	    <image name="consoles1" extra="true">
+		<storyboard> 
+        <animation property="y" from="1.01" begin="0" duration="1000" mode="Bump"/>
+        <animation property="scale" to="1.02" begin="1800" autoreverse="true" duration="300" repeat="forever" mode="easyIn"/>
+		</storyboard>  
+	  </image>
+	  
+      <image name="logo03" extra="true">
+		<storyboard> 
+        <animation property="scale" to="1.04" begin="100" autoreverse="true" duration="400" repeat="forever" mode="easyIn"/>
+		</storyboard>  
+	</image>
+	
+<!-- 		<text name="logoText">
+		   <storyboard>       
+           <animation property="scale" from="0.9" to="1.0" begin="500" duration="1400" mode="EaseInQuint" autoreverse="true" repeat="forever"/>        
+           </storyboard>
+      </text> -->
+	  
+	  	  <image name="md_marquee">
+			<storyboard>       
+            <animation property="scale" from="0.9" to="1.0" begin="500" duration="700" mode="easeInOut" autoreverse="true" repeat="forever"/>        
+            </storyboard>
+				</image>
+				
+					  	  <image name="logo3D">
+			<storyboard>       
+            <animation property="scale" from="0.9" to="1.0" begin="500" duration="700" mode="easeInOut" autoreverse="true" repeat="forever"/>        
+            </storyboard>
+				</image>
+		
+	    <image name="md_fanart">
+		<storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.2" begin="350" autoreverse="true" duration="3200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		</storyboard>
+        </image>
+
+	   <image name="character" extra="true">
+        <storyboard>
+        <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+        <animation property="y" from="-0.01" begin="0" duration="500" autoreverse="true" repeat="forever" mode="easyInOut"/>
+		</storyboard>
+      </image> 
+	  
+	  	<text name="md_name">
+		
+		
+<storyboard event="activate" repeat="0">
+<animation property="h" to="0.01" duration="1950" begin="800" autoreverse="true" repeat="1"/>
+<animation property="w" to="0.01" duration="2950" begin="800" autoreverse="true" repeat="1"/>
+</storyboard>
+		
+		
+	</text>
+
+	  <image name="pointer" extra="true">
+       <storyboard repeat="forever">
+       <animation property="x" from="0.04" to="0.07" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+       </storyboard>
+      </image>
+	  
+	  	  	  <image name="char" extra="true">
+		<storyboard repeatAt="350">
+        <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+        <animation property="scale" to="1.035" begin="350" duration="300" autoreverse="true" mode="bump"/>
+        <animation property="scale" to="1 " begin="1000" duration="300" mode="linear"/>
+        <animation property="scale" from="1" to="1 " begin="1300" duration="1000" mode="linear"/>
+		</storyboard>
+	  </image>
+	  
+	  
+	  <image name="pointer1" extra="true">
+<storyboard repeat="forever">
+<animation property="x" from="0.963" to="0.940" duration="60" autoreverse="true" begin="4000" repeat="3"/>
+</storyboard>
+</image>
+	  
+	  
+	     <image name="wallpapaer001" extra="true">
+		  <storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.2" begin="350" autoreverse="true" duration="3200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		 </storyboard>
+      </image>
+	  
+
+	  	     <image name="wallpapaer005" extra="true">
+		  <storyboard>
+         <animation property="y" from="-2" begin="0" duration="0" mode="easyOut"/>
+         <animation property="scale" to="1.1" begin="350" autoreverse="true" duration="7200" repeat="forever" mode="easyIn"/>
+         <animation property="opacity" from="0" to="1" duration="350" mode="linear"/>
+		 </storyboard>
+      </image>
+	  
+	</view>
+
+
+</theme>
