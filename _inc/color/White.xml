@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+<!--    All Color Menu -->
+    <view name="menu">
+
+      <menuText name="menutitle">
+         <color>ffffff</color>
+      </menuText>
+	  
+      <menuText name="menufooter">
+         <color>868686</color>
+      </menuText>
+	  
+    <menuText name="menutext">
+      <color>cccccc</color>
+      <separatorColor>191919</separatorColor>
+      <selectorColor>ffffff</selectorColor>
+      <selectorColorEnd>ffffff</selectorColorEnd>
+      <selectedColor>000000</selectedColor>
+    </menuText>
+	
+    <menuTextSmall name="menutextsmall">
+      <color>5C5C5C</color>
+    </menuTextSmall>
+	
+    <menuBackground name="menubg">
+      <color>000000</color>
+    </menuBackground>
+		
+    </view> 
+	
+	
+    <view name="basic, detailed, video">
+    <textlist name="gamelist">
+    <selectedColor>000000</selectedColor>
+    <selectorColor>ffffff</selectorColor> 
+    <selectorColorEnd>ffffff</selectorColorEnd>
+    <primaryColor>ffffff</primaryColor>
+    <secondaryColor>ffffff</secondaryColor>
+    </textlist>
+    </view>
+
+</theme>
