@@ -71,7 +71,8 @@
       <image name="md_marquee">
         <visible>false</visible>
       </image>
-      <image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+		<path>{game:thumbnail}</path>
         <visible>false</visible>
       </image>
 	   <image name="maqueta" extra="true">

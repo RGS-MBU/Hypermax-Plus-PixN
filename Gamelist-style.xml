@@ -18,7 +18,9 @@
 			   <zIndex>400</zIndex>
 		</video>	
 		
-		<image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+		<path>{game:thumbnail}</path>
+          <visible>true</visible>
 			<roundCorners>0.02</roundCorners>
             <origin>0.5 0.5</origin>
             <pos>0.4448 0.3925</pos>

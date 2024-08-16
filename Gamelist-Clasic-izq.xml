@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 
-   <customView name="Gamelist Clasic izq" inherits="video">
+   <customView name="Gamelist Clasic izq" inherits="detailed">
 
             <textlist name="gamelist">
 			<origin>0 0</origin>
@@ -25,14 +25,14 @@
 	  </image>
 	
 		
-		<image name="md_thumbnail"> 
+       <image name="thumbnail-hypermax" extra="true">
+			<path>{game:thumbnail}</path>
+			<visible>true</visible>
 			<origin>0 0</origin>
 			<pos>0.637 0.0639</pos>
-            <default>./_inc/001.png</default>
 			<maxSize>0.35 0.6689</maxSize>
-			<path>./_art/empty.png</path>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>30</zIndex> 
+			<zIndex>99</zIndex> 
 			</image>
 		
 		<text name="md_description">

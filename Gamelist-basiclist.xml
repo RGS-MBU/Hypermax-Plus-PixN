@@ -36,7 +36,9 @@
 	   	<visible>false</visible>     
        </video>
 	  
-   		<image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+			<path>{game:thumbnail}</path>
+			<visible>true</visible>
 			<origin>0.5 0.5</origin>
 			<pos>0.15 0.77</pos>
 			<maxSize>0.35 0.35</maxSize>

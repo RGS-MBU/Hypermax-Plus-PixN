@@ -4,7 +4,7 @@
 
   <!---------------------------custom------------------------------------- -->
 
-   <customView name="Gamelist simple" inherits="video">
+   <customView name="Gamelist simple" inherits="detailed">
 	  
 	  	<image name="bg-game-menu" extra="true">
 			<origin>0 0</origin>
@@ -40,7 +40,8 @@
 	 <visible>false</visible> 
 		</image>
    
-   	<image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+		<path>{game:thumbnail}</path>
       <visible>false</visible> 
 	</image>
 	

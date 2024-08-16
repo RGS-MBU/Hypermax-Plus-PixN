@@ -38,7 +38,9 @@
          <zIndex>99999</zIndex>          
       </image> 
    
-   		<image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+		<path>{game:thumbnail}</path>
+          <visible>true</visible>
 			<origin>0.5 0.5</origin>
 			<pos>0.87 0.77</pos>
 			<maxSize>0.14 0.2</maxSize>

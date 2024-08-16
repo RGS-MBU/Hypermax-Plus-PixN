@@ -113,6 +113,11 @@
        <origin>0.5 0.5</origin>
        <zIndex>10</zIndex>
        </image>
+	   
+	   <image name="thumbnail-hypermax" extra="true">
+			<path>{game:thumbnail}</path>
+			<visible>false</visible>
+	   
 
 	  <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
       <pos>1 1</pos>

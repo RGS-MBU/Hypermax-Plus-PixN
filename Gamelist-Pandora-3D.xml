@@ -233,7 +233,9 @@
 	 
 	 
 	 
-	 <image name="md_thumbnail">
+<image name="thumbnail-hypermax" extra="true">
+<path>{game:thumbnail}</path>
+<visible>true</visible>
 <zIndex>90</zIndex>
 <origin>0.5 0.5</origin>
 <pos>0.363 0.845</pos>

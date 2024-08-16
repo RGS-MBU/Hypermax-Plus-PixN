@@ -60,7 +60,9 @@
         <visible>false</visible>    
 	</text>
 
-    <image name="md_thumbnail"> 
+       <image name="thumbnail-hypermax" extra="true">
+			<path>{game:thumbnail}</path>
+			<visible>true</visible>
 		<origin>0 0</origin>
 		<pos>0.0255 0.0639</pos>
         <default>./_inc/001.png</default>

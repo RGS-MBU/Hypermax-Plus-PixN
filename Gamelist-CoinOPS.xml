@@ -117,7 +117,8 @@
     <zIndex>3</zIndex> 
     </image> 
 
-   		<image name="md_thumbnail">
+       <image name="thumbnail-hypermax" extra="true">
+		<path>{game:thumbnail}</path>
  <visible>false</visible> 
 		</image>
 		
