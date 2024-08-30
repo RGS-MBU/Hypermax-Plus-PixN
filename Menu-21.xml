@@ -112,7 +112,7 @@
       </image>
 		
      <video name="backgroundvideo20" extra="true">
-        <default>./_inc/scotty.mp4</default>
+        <default>./_inc/pixn.mp4</default>
 		<path>{random}</path>
 		<origin>0 0</origin>
         <size>0.565 0.5</size>

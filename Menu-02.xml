@@ -78,7 +78,7 @@
      </helpsystem>
 		
      <video name="backgroundvideo" extra="true">
-        <default>./_inc/scotty.mp4</default>
+        <default>./_inc/pixn.mp4</default>
 		<path>{random}</path>
 		<origin>0.5 0.5</origin>
         <size>0.6 0.8</size>

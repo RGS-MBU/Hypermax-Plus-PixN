@@ -129,7 +129,7 @@
      </helpsystem>
 
 	 <video name="backgroundvideo" extra="true">
-         <default>./_inc/scotty.mp4</default>
+         <default>./_inc/pixn.mp4</default>
         <visible>true</visible>
         <path>{random}</path>  
         <rotation>-4</rotation>  
