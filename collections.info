@@ -1,12 +1,115 @@
+﻿# To avoid having a theme structure like <systemfolder>/theme.xml for custom collections
+# You can use the collections.info file to list every supported collections names
 3players
 4players
+Ace Attorney
+Adventure Time
+Aladdin
+Albert Odyssey
+Alien
+Altered Beast
+Arc the Lad
 arcade-classics
 arcade-killer
+Arkanoid
+Art of Fight
+Asterix
+Avengers
+Ayrton Senna
+Baldur's Gate
+Bare Knuckle
+Bart
+Batman
+Battletoads
+Beatem Up
 beatemup
+Ben 10
+Berserk
+Bomberman
+Brandish
+Brasil
+Bruce Lee
+Cadillacs
+California Games
+Castlevania
+Contra
+Crash
+Daffy Duck
+Darkwing Duck
+Dead or Alive
+Diablo
+Donald
+Donkey Kong
+Doom
+Double Dragon
+Dragon Ball
+Dragon Ball Z
+DuckTales
+Duke Nukem
+Dungeons & Dragons
+Dynasty Wars
+EarthBound
 fighting
+Final Fantasy
+Ghouls
+Golden Axe
+Grand Theft Auto
+GTA
+King of Fighters
+Kirby
+Mario
+Metal Gear
+Metal Slug
+Metroid
+Mickey
+Minecraft
+Mortal Kombat
+Mother
+Pac-Man
 platform
+Pokemon
+Portuguese
+Power Rangers
+Prince of Persia
 puzzle
+Quake
+Resident Evil
+RPG
 run-and-gun
+sega
+Shinobi
+Shootem Up
 shumps-horizontal
 shumps-vertical
+Simpsons
+Sonic
+Space Invaders
+Spider-Man
+SpongeBob
 sports
+Spyro
+Star Fox
+Star Wars
+Street Fighter
+Streets of Rage
+Super Robot Wars
+Super Smash Bros
+Superman
+Tec Toy
+Teenage Mutante Ninja Turtles
+Tekken
+TMNT
+Tomb Raider
+Ultraman
+Wacky Races
+Waluigi
+Wild Arms
+Wonder Boy
+World Heroes
+Worms
+X-Men
+Yogi Bear
+Ys
+Yu Yu Hakusho
+Yu-Gi-Oh
+Zelda
