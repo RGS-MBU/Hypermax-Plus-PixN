@@ -1,0 +1,144 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+      <view name="system">
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>0.34 0</pos>
+          <size>1 1</size>
+          <logoSize>0.155 0.155</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>19</maxLogoCount>
+          <logoRotation>-7</logoRotation>
+          <logoRotationOrigin>2.50 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>       
+         </carousel>
+
+         <image name="cliente" extra="true">
+          <pos>0.01 0.01</pos>
+          <maxSize>0.08 0.08</maxSize>
+          <color>ffffff</color>
+          <path>./_inc/assets/cliente.png</path>
+          <zIndex>999</zIndex>
+         </image>
+
+         <image name="background13" extra="true">
+          <size>1 1</size>
+          <pos>0 0</pos>
+          <origin>0 0</origin>
+          <path>./art/sistemas/fondos/batocera.png</path>
+          <zIndex>20</zIndex>
+         </image>
+
+         <image name="pointer" extra="true">
+          <pos>0.966 0.50</pos>
+          <origin>0.5 0.5</origin>
+          <size>0.075 0.175</size>
+          <path>./art/sistemas/pointer/default.png</path>
+          <path>./art/sistemas/pointer/${system.theme}.png</path>
+          <zIndex>60</zIndex>
+         </image>
+
+      <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>-0.15 0.84</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+	    <rotation>-4</rotation> 
+        <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+      </text> 
+	  
+	  <image name="player" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/player.png</path>
+		 <color>ffffff</color>
+	     <storyboard>
+         <animation property="opacity" from="0" to="1" duration="1300" mode="easeIn"/>
+         </storyboard>
+         <zIndex>10</zIndex>          
+       </image> 
+
+	   <image name="wallpaper1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+		 <path>./default/_inc/wall.jpg</path>
+         <path>./_inc/wallpaper1/${system.theme}.jpg</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	  <image name="logoz" extra="true">
+		<pos>0.01 0.95</pos>
+		<maxSize>0.035 0.035</maxSize>
+		<color>ffffff</color>
+		<path>./_inc/logoz.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+      <image name="logotype1" extra="true">
+		<pos>0.25 0.01</pos>
+		<maxSize>0.28 0.28</maxSize>
+		<color>ffffff</color>
+		<rotation>-4</rotation>  
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+ 	 
+	  <image name="char" extra="true">
+		<pos>-0.05 0</pos>
+		<maxSize>1 1</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/char-d.png</path>
+		<path>./${system.theme}/char.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+	  
+	  <image name="consoles" extra="true">
+		<pos>0.5 0.7</pos>
+		<maxSize>0.25 0.25</maxSize>
+		<color>ffffff</color>
+		<path>./default/_inc/console.png</path>
+		<path>./_inc/consoles/${system.theme}.svg</path>
+		<path>./_inc/consoles/${system.theme}.png</path>
+		<zIndex>999</zIndex>
+	  </image>
+
+      <helpsystem name="help">
+       <iconColor>FFFFFF</iconColor>
+       <fontSize>0.022</fontSize>
+       <origin>0.5 0.5</origin>
+       <pos>0.47 0.98</pos>
+       <fontPath>./_inc/Shaka_Pow.ttf</fontPath>
+      </helpsystem>
+
+      <video name="backgroundvideo" extra="true">
+       <default>./_inc/pixn.mp4</default>
+       <visible>true</visible>
+       <path>{random}</path>  
+       <rotation>-4</rotation>  
+       <roundCorners>0.04</roundCorners>             
+       <pos>0.45 0.485</pos>
+       <origin>0.5 0.5</origin>
+       <size>0.4860 0.682</size>
+       <delay>0.3</delay>
+       <showSnapshotNoVideo>false</showSnapshotNoVideo>
+       <showSnapshotDelay>false</showSnapshotDelay>
+       <color>FFFFFF</color>
+       <storyboard>
+       <animation property="y" from="0.05" begin="0" duration="350" mode="easeOut"/>
+       <animation property="opacity" from="0" to="1" duration="550" mode="easeIn"/>
+       <animation property="scale" from="0" to="1" duration="350" mode="easeOut"/>
+       </storyboard>
+       <zIndex>200</zIndex>
+      </video>
+ 
+    </view>
+</theme>

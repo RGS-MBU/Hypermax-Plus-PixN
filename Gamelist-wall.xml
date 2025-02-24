@@ -110,7 +110,7 @@
        <pos>0 0</pos>
        <size>1 1</size>
   	   <path>./default/_inc/wall-d.jpg</path>
-       <path>./_inc/wallpaper/${system.theme}.jpg</path>
+       <path>./_inc/wallpaper1/${system.theme}.jpg</path>
       <zIndex>1</zIndex>          
     </image>
   </customView>

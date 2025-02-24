@@ -190,8 +190,8 @@
 		</text>
 		
 		<rating name="md_rating">
-			<filledPath>./_art/icons/star_filled.png</filledPath>
-			<unfilledPath>./_art/icons/star-empty.png</unfilledPath>
+			<filledPath>./_inc/images/star_filled.png</filledPath>
+			<unfilledPath>./_inc/images/star-empty.png</unfilledPath>
 			<color>4c5058</color>
 			<linearSmooth>true</linearSmooth>
 		</rating>

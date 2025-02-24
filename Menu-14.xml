@@ -78,7 +78,7 @@
 <pos>0.205 0.002</pos>
 <color>ffffffCC</color>
 <origin>0 0</origin>
-<path>./${system.theme}/_inc/system1.png</path>
+<path>./${system.theme}/_inc/system.png</path>
 <zIndex>50</zIndex>
 </image>
 
