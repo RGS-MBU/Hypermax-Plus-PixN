@@ -1,45 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <theme>
 	<formatVersion>7</formatVersion>
-
-
-<view name="splash">
+	<view name="splash">
 		<splash name="splash">
 			<backgroundColor>ffffff</backgroundColor>
 		</splash>
-
 		<image name="background">
-			<path>./_inc/assets/background.png</path>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<minSize>1 1</minSize>
+			<path>./_inc/assets/splash.jpg</path>
 		</image>
-
-
 		<image name="progressbarbg" extra="true">
 			<color>00abff</color>
 			<colorEnd>330099</colorEnd>
 			<zIndex>5</zIndex>
 		</image>
-
-
 		<image name="progressbar">
 			<color>ffffff00</color>
 			<origin>0.5 0.5</origin>
-			 <size>0.69 0.011</size>
-			 <pos>0.51 0.9</pos>
+			<size>0.69 0.011</size>
+			<pos>0.51 0.9</pos>
 			<colorEnd>ffffff00</colorEnd>
-			</image>
-		
+		</image>
 		<image name="progressbar:active">
 			<color>ffffff00</color>
 			<colorEnd>ffffff00</colorEnd>
 			<zIndex>7</zIndex>
 		</image>
-		
 		<text name="label">
 			<color>FFFFFF59</color>
 			<origin>0.5 0.5</origin>
 			<alignment>center</alignment>
-	        <fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
+			<fontPath>./_inc/fonts/gomarice_no_continue.ttf</fontPath>
 			<pos>0.5 0.94</pos>
 			<fontSize>0.038</fontSize>
 			<glowColor>00000018</glowColor>
@@ -47,14 +40,4 @@
 			<glowOffset>0</glowOffset>
 		</text>
 	</view>
-
-
-
-
-
-
-
-
-
-
 </theme>
