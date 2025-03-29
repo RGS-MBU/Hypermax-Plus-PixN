@@ -39,6 +39,7 @@
 
    <include subset="Logo" name="Logo Carbon">./m-carbon.xml</include>
    <include subset="Logo" name="Logo Silver">./m-silver.xml</include>
+   <include subset="Logo" name="Logo Trans">./m-trans.xml</include>
       
    	<include subset="Color" name="Color Default">./_inc/color/Default.xml</include>
     <include subset="Color" name="Color Dark">./_inc/color/Dark.xml</include>
