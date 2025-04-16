@@ -77,8 +77,10 @@
 <origin>0.5 0.5</origin>
 		<color>ffffff</color>
 		<path>./default/_inc/logo.png</path>
-		<path>./_inc/logos/${system.theme}.svg</path>
 		<path>./_inc/logos/${system.theme}.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}-w.png</path>
+		<path>./_inc/logos/${system.theme}-w.svg</path>
 		<zIndex>998</zIndex>
 	  </image>
     

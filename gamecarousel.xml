@@ -128,6 +128,9 @@
         <maxSize>0.10 0.10</maxSize>
 		<path>./default/_inc/logo.png</path>
 		<path>./_inc/logos/${system.theme}.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}-w.png</path>
+		<path>./_inc/logos/${system.theme}-w.svg</path>
 		<color>ffffff</color>
 	    <zIndex>400</zIndex>
 	</image>

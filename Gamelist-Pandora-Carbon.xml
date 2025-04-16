@@ -84,6 +84,9 @@
          <origin>0.5 0.5</origin>      
          <pos>0.8 0.079</pos>
 		 <path>./default/_inc/logo.png</path>
+		 <path>./_inc/logos/${system.theme}-w.svg</path>
+		 <path>./_inc/logos/${system.theme}-w.png</path>
+		 <path>./_inc/logos/${system.theme}.svg</path>
 		 <path>./_inc/logos/${system.theme}.png</path>
          <maxSize>0.20 0.11</maxSize>
          <zIndex>200</zIndex>         
