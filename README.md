@@ -18,9 +18,49 @@ Emulationstation Theme for Batocera and RetroBat.<br/>
 | ![](https://imgur.com/GL48apj.png?raw=true) | ![](https://imgur.com/e0QIBke.png?raw=true) | ![](https://imgur.com/cBbD9Nk.png?raw=true) |
 | ![](https://imgur.com/yCubZNX.png?raw=true) | ![](https://imgur.com/dRNUnbj.png?raw=true) | ![](https://imgur.com/hvIdZsk.png?raw=true) |
 
+How to manually add themes to Batocera and RetroBat:
+
+Batocera:
+
+1. Navigate to the GitHub repository page.
+
+2. Click the green "Code" button.
+
+3. Select "Download ZIP". 
+
+4. Unzip the theme file to create a folder for the theme.
+
+5. Navigate to the /userdata/themes directory, this directory is where Batocera stores user-installed themes.
+
+6. Copy the theme folder (created from the unzipped file) into the /userdata/themes directory. 
+
+7. Restart your Batocera device for the changes to take effect.
+
+
+RetroBat:
+
+1. Navigate to the GitHub repository page.
+
+2. Click the green "Code" button.
+
+3. Select "Download ZIP". 
+
+4. Unzip the theme file to create a folder for the theme.
+
+5. Navigate to the \RetroBat\emulationstation\.emulationstation\themes directory, this directory is where RetroBat stores user-installed themes.
+
+6. Copy the theme folder (created from the unzipped file) into the \RetroBat\emulationstation\.emulationstation\themes directory. 
+
+7. Restart RetroBat for the changes to take effect.
+
+
+Both:
+
+Within the themes folder you should end up with a folder called HyperMax-Plus-PixN and inside that all the theme files including the main theme.xml
+
 ## Credits
 
-- Theme author:
+- Original Theme Author:
   - tbc
 
 ## License
